@@ -12,11 +12,13 @@ footer {
 }
 
 .nav {
+  width: fit-content;
+  padding: 8px;
   background-color: #333;
   border-radius: 15px;
-  padding: 8px;
-  color: white;
+  
   font-family: Monaco, monospace;
+  color: white;
   line-height: 130%;
   letter-spacing: -0.05em;
   word-break: normal;
