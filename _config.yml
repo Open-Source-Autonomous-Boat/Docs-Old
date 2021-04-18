@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+name: OSAB Documentation
+description: Documentation for the Open Source Autonomous Boat project
+url: "https://docs.osab.xyz/"
+logo: /images/logo.jpeg
