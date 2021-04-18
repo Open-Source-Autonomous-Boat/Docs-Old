@@ -12,8 +12,15 @@ footer {
 }
 
 .nav {
-  background-color: #363636;
+//   background-color: #363636;
   border-radius: 15px;
   padding: 8px;
   color: white;
+  font-family: Monaco, monospace;
+  font-size: $base-font-size;
+  line-height: 100%;
+  background-color: #eee;
+  padding: 0.2em;
+  letter-spacing: -0.05em;
+  word-break: normal;
 }
