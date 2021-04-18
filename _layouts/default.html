@@ -18,8 +18,30 @@
         <img src="{{site.logo | relative_url}}" alt="Logo" />
         <p>Documentation for the Open Source Autonomous Boat project.</p>
         <p>Visit our website: <a href="https://osab.xyz/">https://osab.xyz/</a><br>Join our <a href="https://discord.gg/C5H9EE7Rp3">Discord</a>!</p>
-        
         <p class="view"><a href="https://github.com/Open-Source-Autonomous-Boat/">View OSAB on GitHub <small>Open-Source-Autonomous-Boat</small></a></p>
+        
+        <ul id="myUL">
+          <li><span class="caret">Beverages</span>
+            <ul class="nested">
+              <li>Water</li>
+              <li>Coffee</li>
+              <li><span class="caret">Tea</span>
+                <ul class="nested">
+                  <li>Black Tea</li>
+                  <li>White Tea</li>
+                  <li><span class="caret">Green Tea</span>
+                    <ul class="nested">
+                      <li>Sencha</li>
+                      <li>Gyokuro</li>
+                      <li>Matcha</li>
+                      <li>Pi Lo Chun</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </header>
       <section>
 
@@ -43,6 +65,19 @@
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
+    
+    <script>
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+        });
+      }
+    </script>
+    
     {% endif %}
   </body>
 </html>
