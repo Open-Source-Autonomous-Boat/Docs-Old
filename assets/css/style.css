@@ -299,3 +299,6 @@ footer {
   all: unset;
   padding: 5px 20px;
 }
+a.navitem {
+  color: white;
+}
