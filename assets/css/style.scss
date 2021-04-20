@@ -7,16 +7,22 @@ header {
   position: static;
   background-color: #343131;
   color: white;
-  padding: 20px
+  padding: 20px;
+  width:270px;
+  float:left;
 }
 
 section {
-  padding: 20px
+  padding: 20px;
+//   width:500px;
+  width: auto;
+  float:right;
+//   padding-bottom:50px;
 }
 
-footer {
-   position: static;
-}
+// footer {
+//    position: static;
+// }
 
 .wrapper {
   margin: 0px;
