@@ -59,6 +59,7 @@ a:hover small {
 .wrapper {
 /*   width:860px; */
   margin:0 auto;
+  display: flex;
 }
 
 blockquote {
@@ -190,9 +191,8 @@ strong {
 }
 
 section {
-  width:500px;
   float:right;
-  padding-bottom:50px;
+  padding: 20px;
 }
 
 small {
