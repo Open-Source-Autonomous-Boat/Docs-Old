@@ -290,6 +290,11 @@ footer {
   }
 }
 
+p.tree {
+  line-height: 130%;
+  letter-spacing: -0.05em;
+  word-break: normal;
+}
 
 /* .nav {
   all: unset;
