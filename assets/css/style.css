@@ -296,6 +296,10 @@ p.tree {
   letter-spacing: -0.05em;
   word-break: normal;
 }
+.tree a:hover {
+  all: unset;
+  color: white;
+}
 
 /* .nav {
   all: unset;
