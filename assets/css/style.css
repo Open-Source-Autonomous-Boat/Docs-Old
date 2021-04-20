@@ -299,6 +299,6 @@ footer {
   all: unset;
   padding: 5px 20px;
 }
-a.navitem {
+li>a {
   color: white;
 }
