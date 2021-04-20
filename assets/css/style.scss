@@ -4,6 +4,10 @@ body {
 img {
   max-width:100%;
 }
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
 header {
 //   width:270px;
   width: 20%;
@@ -11,15 +15,13 @@ header {
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   background-color: #343131;
-}
-.wrapper {
-  width:860px;
-  margin:0 auto;
+  padding: 20px;
 }
 section {
 //   width:500px;
   width: 80%;
   float:right;
+  padding: 20px;
   padding-bottom:50px;
 }
 footer {
