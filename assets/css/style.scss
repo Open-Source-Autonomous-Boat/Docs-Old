@@ -38,8 +38,15 @@ footer {
 
 ul.navtable {
   background-color: inherit;
+  border: none;
+  width: auto;
+  margin: 0px;
 //   position: static;
   padding: 5px 20px;
 //   background-color: #343131;
   color: #6f87a1;
+}
+li.navitem {
+  boarder: none;
+  width: auto;
 }
