@@ -43,7 +43,6 @@ ul.navtable {
   width: auto;
   margin: 0px;
 //   position: static;
-  padding: 5px 20px;
 //   background-color: #343131;
   color: #6f87a1;
 }
@@ -51,6 +50,7 @@ li.navitem {
   border: none;
   width: auto;
   position: absolute;
+  padding: 5px 20px;
 }
 a.navlink {
   font-size: 14px;
