@@ -292,8 +292,10 @@ footer {
 
 .nav {
   all: unset;
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .navitem {
   all: unset;
+  padding: 5px 20px;
 }
