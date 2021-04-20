@@ -52,6 +52,9 @@ li.navitem {
   position: absolute;
   padding: 5px 20px;
 }
+hover:li.navitem {
+  background-color: grey;
+}
 a.navlink {
   font-size: 14px;
   color: white;
