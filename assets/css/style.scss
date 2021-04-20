@@ -7,19 +7,31 @@ header {
   position: static;
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 footer {
    position: static;
 }
 
+.wrapper {
+  margin: 0px;
+  padding: 0px;
+}
+
 .nav {
-//   width: fit-content;
   padding: 8px;
-//   background-color: #333;
-//   border-radius: 15px;
-  
   font-family: Monaco, monospace;
   color: black;
   line-height: 130%;
   letter-spacing: -0.05em;
   word-break: normal;
+}
+
+.ul {
+  background-color: #343131;
+  color: #6f87a1;
+  padding: 5px 20px;
 }
